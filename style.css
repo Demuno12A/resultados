@@ -79,7 +79,7 @@ body {
 .Resumo > div {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 1.6rem;
     border-radius: 1.2rem;
     margin-bottom: 1.6rem;
 }
@@ -143,7 +143,7 @@ body {
         grid-template-columns: 1fr 1fr;
         width: 736px;
         background: var(--white);
-        border-radius: 3.2rem 0 0 3.2rem;
+        border-radius: 3.2rem;
     }
 
     .Resultado {
@@ -159,6 +159,7 @@ body {
     .Resultado div {
         width: 20rem;
         height: 20rem;
+        margin-bottom: 2.8rem;
     }
 
     .Resultado div strong:nth-of-type(1) {
@@ -176,10 +177,26 @@ body {
     .Resultado p {
         font-size: 1.8rem;
     }
-    .Resultado {
-        padding: 3.8rem 4rem;
+    
+    .Resumo {
+        padding: 3.8rem;
+        border-radius: 3rem;
     }
     .Resumo h2 {
         font-size: 2.4rem;
+        margin-bottom: 3rem;
     }
+
+    .Resumo div {
+        font-size: 1.8rem;
+    }
+
+     .Resumo button {
+        margin-top: 2.4rem;
+     }
+
+     .Resumo button:hover {
+        background: var(--Resultado-bg);
+        cursor: pointer;
+     }
 }
